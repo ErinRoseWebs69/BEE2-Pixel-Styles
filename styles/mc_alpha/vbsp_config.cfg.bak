@@ -97,8 +97,8 @@
 		"Glass"         "glass/glasswindow_frosted"
 		"Grating"       "metal/metalgrate018"
 		
-		"Goo"           "BEE2/mc_alpha/lava"
-		"Goo_cheap"     "BEE2/mc_alpha/lava" // No reflections, so it doesn't matter!
+		"Goo"           "BEE2/mc_alpha/lava/mc_alpha_goo"
+		"Goo_cheap"     "BEE2/mc_alpha/lava/mc_alpha_goo" // No reflections, so it doesn't matter!
 		}
 	"Overlays"
 		{		

@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+$basetexture "BEE2/mc_alpha/blocks/alpha_glass"
+$envmap "metal/black_wall_envmap_002a_hdr"
+$envmapmask "glass/glasswindow_frosted_002b_mask"
+$surfaceprop glass
+$translucent 1
+"%noportal" 1
+"%keywords" minecraft alhpa
+$worldimposter 1
+}
