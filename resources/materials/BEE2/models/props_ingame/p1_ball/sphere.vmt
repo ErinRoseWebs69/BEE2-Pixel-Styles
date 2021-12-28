@@ -1,0 +1,4 @@
+vertexlitgeneric
+	{
+	$baseTexture "BEE2/models/props_ingame/p1_ball/sphere"
+	}

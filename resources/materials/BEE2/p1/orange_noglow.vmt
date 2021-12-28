@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "Lights/light_orange001"
+$surfaceprop "default_silent" // Make portal shots "pass through" this.
+$reflectivity "[0 0 0]"
+$nodecal 1
+%noportal 1
+}

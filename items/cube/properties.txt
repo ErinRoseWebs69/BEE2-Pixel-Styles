@@ -1,0 +1,22 @@
+"Properties"
+	{
+	"Authors"		"Valve, Carl Kenner, HMW"
+	"Tags"			"Portal 2; Test Elements"
+	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Cube"
+	"all_name"		"PORTAL2_PuzzleEditor_Palette_weighted_cube"
+	"all_icon"		"palette/grouped/cubes.png"
+	"Ent_count"     "Dropperless: 2\nDropper: 20"
+	"Description"
+		{
+		"" "* The Reflection Cube was made by HMW for his mappack [Try Anything Twice](http://clockworkbrain.net/2015/09/try-anything-twice/)"
+		}
+	"Icon"
+		{
+			"all"	"VALVE_TEST_ELEM:clean/cubes.png"
+			"0"		"VALVE_TEST_ELEM:clean/cube.png"
+			"1"		"VALVE_TEST_ELEM:clean/companion_cube.png"
+			"2"		"VALVE_TEST_ELEM:clean/reflection_cube.png"
+			"3"		"VALVE_TEST_ELEM:clean/edgeless_safety_cube.png"
+			"4"		"VALVE_TEST_ELEM:clean/frankenturret.png"
+		}
+	}

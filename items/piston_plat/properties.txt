@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Tags"			"Portal 2;Panels"
+	"Authors"		"Valve, TeamSpen210"
+	"Ent_Count"		"23"
+	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Piston_Platform"
+	"Icon"
+		{
+			"0"	"VALVE_GEOMETRY:clean/arm_paneltop.png"
+		}
+	}

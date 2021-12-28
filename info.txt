@@ -1,0 +1,1017 @@
+"ID"		"ERINROSE_MINECRAFT_STYLES"
+"Name"		"Pixel Styles"
+"Desc"      	"Adds many Minecraft styles to BEE2 based on dimensions, game version, biomes, etc. Please note: I am only adding styles for PRIMARY biomes, no sub one. I don't have that much time, and a lot of the sub biomes don't have many differences."
+
+"Style"
+	{
+	"ID"		"ERINROSE_MINECRAFT_ALPHA"
+	"Authors"	"Mojang, Erin-Rose"
+	"Name"		"Minecraft Alpha - Overworld"
+	"ShortName"	"MC Alpha"
+	"Folder"	"mc_alpha"
+	"Group"			"Old Aperture"
+	"VPK_Name"  "VPK_BEE2_PORTAL_1"
+	"Icon"   	"ERINROSE_PIXEL_STYLES:BEE2/mc_alpha/alpha_icon.vtf"  	
+	"IconLarge" "prev/mc_alpha.png"
+	"Has_Video"	"0"
+	"Base"		""
+	"Description"
+		{
+			"" "Minecraft Alpha textures in a Portal 2 test chamber, designed to look as good as possible considering, well..."
+			"" ""
+			"" ""
+			"" ""
+			"" "Dirt, stone, and wood planks will make up most of your building materials. Iron blocks will be your portalable surfaces. Observation rooms are holes in the terrain with some survival blocks. Ceiling observation rooms are holes the show the Minecraft sky."
+			"" "Original Minecraft textures belong to Mojang AB. Do not use these textures for profit outside of Minecraft."
+		}
+	"Suggested"
+		{
+		"Skybox"	"ERINROSE_MINECRAFT_ALPHA"
+		}
+	"Corridors"
+		{
+		"icon_folder" "mc_alpha"
+		"Sp_entry"
+			{
+			"1"	"Farm"
+			"2" 	"Storage"
+			"3"	"Tunnel Straight"
+			"4"	"Tunnel Left"
+			"5"	"Tunnel Right"
+			"6"	"Tunnel Down"
+			"7" 	"Staircase Up"
+			}
+		"Sp_exit"
+			{
+			"1"	"Farm"
+			"2"	"Tunnel Straight"
+			"3" 	"Tunnel Right"
+			"4" 	"Tunnel Left"
+			}
+		"Coop"
+			{
+			"1"	"Storage"
+			"2"	"Tunnel Split"
+			"3"	"Tunnel Down"
+			"4"	"Piston Door"
+			}
+		}
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_PLAINS"
+	"FileName" "mc_alpha_plains"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_SNOW"
+	"FileName" "mc_alpha_snow"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_CAVE"
+	"FileName" "mc_alpha_cave"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_HOUSE"
+	"FileName" "mc_alpha_house"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_NETHER"
+	"FileName" "mc_alpha_nether"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_ALPHA_END"
+	"FileName" "mc_alpha_end"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_PLAINS"
+	"FileName" "mc_modern_plains"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_SPRUCE"
+	"FileName" "mc_modern_spruce"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_BADLANDS"
+	"FileName" "mc_modern_badlands"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_SNOW"
+	"FileName" "mc_modern_snow"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_CAVE"
+	"FileName" "mc_modern_cave"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_DEEPCAVE"
+	"FileName" "mc_modern_DEEPCAVE"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_NETHER"
+	"FileName" "mc_modern_nether"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_WARPED"
+	"FileName" "mc_modern_warped"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_CRIMSON"
+	"FileName" "mc_modern_crimson"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_BASALT"
+	"FileName" "mc_modern_basalt"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_SOULSAND"
+	"FileName" "mc_modern_soulsand"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_END"
+	"FileName" "mc_modern_end"
+	}
+	
+"StyleVPK"
+	{
+	"ID"       "VPK_ERINROSE_MC_MODERN_ENDCITY"
+	"FileName" "mc_modern_endcity"
+	}
+	
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_ALPHA_OVERWORLD"
+	"Name"          "Minecraft Alpha"
+	"Group"         "2D"
+	"Icon"          "skies/mc_alpha"
+	"IconLarge"     "prev/sky_mc_alpha"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in early Minecraft versions. It's also slightly denser."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_ALPHA_NETHER"
+	"Name"          "Minecraft Alpha Nether"
+	"Group"         "2D"
+	"Icon"          "skies/mc_alpha_nether"
+	"IconLarge"     "prev/sky_mc_alpha_nether"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in early Minecraft Nether versions."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_ALPHA_END"
+	"Name"          "Minecraft Alpha Nether"
+	"Group"         "2D"
+	"Icon"          "skies/mc_alpha_nether"
+	"IconLarge"     "prev/sky_mc_alpha_nether"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in early Minecraft End versions."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_MODERN"
+	"Name"          "Minecraft Modern"
+	"Group"         "2D"
+	"Icon"          "skies/mc_modern"
+	"IconLarge"     "prev/sky_mc_modern"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Plains biome of Modern Minecraft. Less dense than Alpha."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_MODERN_NETHER"
+	"Name"          "Minecraft Modern Nether"
+	"Group"         "2D"
+	"Icon"          "skies/mc_modern_nether"
+	"IconLarge"     "prev/sky_mc_modern_nether"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Nether Wastes of Modern Minecraft. Less dense than Alpha."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_WARPED"
+	"Name"          "Minecraft Modern Warped Forest"
+	"Group"         "2D"
+	"Icon"          "skies/mc_warped"
+	"IconLarge"     "prev/sky_mc_warped"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Warped Forest of Modern Minecraft. Same density as Modern Nether."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_CRIMSON"
+	"Name"          "Minecraft Modern Crimson Forest"
+	"Group"         "2D"
+	"Icon"          "skies/mc_crimson"
+	"IconLarge"     "prev/sky_mc_crimson"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Crimson Forest of Modern Minecraft. Same density as Modern Nether."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_SOULSAND"
+	"Name"          "Minecraft Modern Soul Sand Valley"
+	"Group"         "2D"
+	"Icon"          "skies/mc_soulsand"
+	"IconLarge"     "prev/sky_mc_soulsand"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Soul Sand Valley of Modern Minecraft. Same density as Modern Nether."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_BASALT"
+	"Name"          "Minecraft Modern Basalt Deltas"
+	"Group"         "2D"
+	"Icon"          "skies/mc_basalt"
+	"IconLarge"     "prev/sky_mc_basalt"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the Basalt Deltas of Modern Minecraft. Same density as Modern Nether."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_ALPHA_END"
+	"Name"          "Minecraft Alpha End"
+	"Group"         "2D"
+	"Icon"          "skies/mc_alpha_end"
+	"IconLarge"     "prev/sky_mc_alpha_end"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the End dimension of Alpha Minecraft. Slighty denser than Modern End"
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+
+"SkyBox"
+	{
+	"ID"            "ERINROSE_MINECRAFT_MODERN_END"
+	"Name"          "Minecraft Modern End"
+	"Group"         "2D"
+	"Icon"          "skies/mc_modern_end"
+	"IconLarge"     "prev/sky_mc_modern_end"
+	"Material"      "sky_black"
+	"Authors"       "Mojang, Erin-Rose"
+	"Description"   "The fog color used in the End dimension of Modern Minecraft. Less dense than Alpha."
+	
+	"Fog"
+		{
+		"start"     "64"
+        "end"       "3500"
+        "density"   "1"
+        
+        "primaryColor"      "58 82 101"
+		"shadowColor"	"128 128 128"
+        
+        "tonemap_rate"			"1.0"
+		"tonemap_exposure_min"  "0.75"
+        "tonemap_exposure_max"  "1.5"
+        "tonemap_bloom_scale"   "0.3"
+		}
+	}
+	
+"StyleVar"
+	{
+	"ID"            "PP_VOXEL_GUN"
+	"Name"          "Use Voxel Portal Gun"
+	"Description"   "Use the voxel portal gun model. Uses Portal 2 sounds."
+	"Enabled"       "1"
+	"Style"         "ERINROSE_PIXEL_P2"
+	}
+
+"StyleVar"
+	{
+	"ID"            "MC_ALPHA_BOWGUN"
+	"Name"          "Use MC Bow Model"
+	"Description"   "Use the Bow model from Minecraft. This also adds the bow sound effects from Minecraft."
+	"Enabled"       "1"
+	"Style"         "ERINROSE_MINECRAFT_ALPHA"
+	}
+
+"StyleVar"
+	{
+	"ID"            "MC_MODERN_BOWGUN"
+	"Name"          "Use MC Crossbow Model"
+	"Description"   "Use the Crossbow model from Minecraft. This also adds the crossbow sound effects from Minecraft."
+	"Enabled"       "0"
+	"Style"         "ERINROSE_MINECRAFT_MODERN"
+	}
+
+"StyleVar"
+	{
+	"ID"            "MC_DOORLESS_ENTRY"
+	"Name"          "Open P1 Entrance"
+	"Description"   "Don't add doors or fizzlers to the Minecraft singleplayer entrance. Does not add any portalable surfaces."
+	"Enabled"       "1"
+	"Style"         "BEE2_PORTAL_1"
+	}
+	
+"Overrides"
+	{
+	"StyleVar"
+		{
+		"ID"    "RestartOnExit"
+		"Style" "BEE2_PORTAL_1"
+		}
+	}
+
+"Overrides"
+	{
+	"StyleVar"
+		{
+		"ID"		"DoorCameras"
+		"Enabled"	"1"
+		"Name"		"Door Cameras"
+		"Style"		"BEE2_PORTAL_1"
+		}
+	
+	"Item"
+		{
+		"ID" "ITEM_ENTRY_DOOR"
+		"NeedsUnlock"	"1"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"entry_door"
+				}
+			}
+		}
+	
+	"Item"
+		{
+		"ID" "ITEM_EXIT_DOOR"
+		"NeedsUnlock"	"1"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"exit_door"
+				}
+			}
+		}
+		
+	"Item"
+		{
+		"ID" "ITEM_COOP_ENTRY_DOOR"
+		"NeedsUnlock"	"1"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"coop_spawn"
+				}
+			}
+		}
+		
+	"Item"
+		{
+		"ID" "ITEM_COOP_EXIT_DOOR"
+		"NeedsUnlock"	"1"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"coop_exit"
+				}
+			}
+		}
+
+	"Item"
+		{
+		"ID" "ITEM_OBSERVATION_ROOM"
+		"NeedsUnlock"	"1"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"obs_room_large"
+				}
+			}
+		}
+	
+	"Item"
+		{
+		"ID" "ITEM_TURRET" 
+		"Version" 
+			{ 
+			"Styles" 
+				{ 
+				"BEE2_PORTAL_1" 
+					{ 
+					"Base" "BEE2_CLEAN" 
+					"Instances" 
+						{ 
+						"0" "instances/BEE2/p1/items/turret.vmf" 
+						} 
+					} 
+				} 
+			}
+		}
+	}
+
+"Overrides" 
+	{ 
+	"Item" 
+		{
+		"ID" "ITEM_PANEL_STAIRS"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"stairs"
+				}
+			}
+		}
+
+	"Item"
+		{
+		"ID" "ITEM_SECONDARY_OBSERVATION_ROOM"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"obs_room"
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_PAINT_SPLAT"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1" "gel"
+				}
+			}
+		}
+	"ITEM"
+		{
+		"ID" "ITEM_CUBE"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1" "cube"
+				}
+			}
+		}
+
+	"ITEM"
+		{
+		"ID" "ITEM_PISTON_PLATFORM"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1" "piston_plat"
+				}
+			}
+		}
+
+	"ITEM"
+		{
+		"ID" "ITEM_LIGHT_PANEL"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base"   "BEE2_CLEAN"
+					"Config" "light_strip.cfg"
+					"Instances"
+						{
+						"bee2_cool" "instances/BEE2/p1/items/light_strip/cool.vmf"
+						"bee2_warm" "instances/BEE2/p1/items/light_strip/warm.vmf"
+						"bee2_cold" "instances/BEE2/p1/items/light_strip/cold.vmf"
+						}
+					"Authors" "Carl Kenner, BenVlodgi, Rantis, Lautaro, TeamSpen210"
+					"Description"
+						{
+						"" "A small hole that emits that emits various colors of lighting. It may also be used to block portal placement or antline wiring."
+						"" ""
+						"" "* The non-cool lights can be used to contrast or highlight areas."
+						"" "* Sphere-type is unused."
+						"" "* Franken-type is an Antline Router the size of a light strip. This is removed from the map but may conflict with other items in the editor."
+						}
+					"Palette"
+						{
+						"0"
+							{
+							"pal_name" "WHITE LIGHT BOX"
+							"Name"     "White Light Box"
+							"Model"    "BEE2/p1/lights/lightstrip_cool.mdl"
+							"Icon"     "palette/p1/light_strip_cool.vtf"
+							}
+						"1"
+							{
+							"pal_name" "ORANGE LIGHT BOX"
+							"Name"     "Orange Light Box"
+							"Model"    "BEE2/p1/lights/lightstrip_warm.mdl"
+							"Icon"     "palette/p1/light_strip_warm.vtf"
+							}
+						"2"
+							{
+							"pal_name" "BLUE LIGHT BOX"
+							"Name"     "Blue Light Box"
+							"Model"    "BEE2/p1/lights/lightstrip_cold.mdl"
+							"Icon"     "palette/p1/light_strip_cold.vtf"
+							}
+						// 3: Router, unstyled.
+						}
+					}
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_LIGHT_HOLE"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base"   "BEE2_CLEAN"
+					"Config" "light_hole.cfg"
+					"Instances"
+						{
+						"bee2_cool" "instances/BEE2/p1/items/light_hole/cool.vmf"
+						"bee2_warm" "instances/BEE2/p1/items/light_hole/warm.vmf"
+						"bee2_cold" "instances/BEE2/p1/items/light_hole/cold.vmf"
+						}
+					"Authors" "Carl Kenner, BenVlodgi, Rantis, Lautaro, TeamSpen210"
+					"Description"
+						{
+						"" "A small hole that emits that emits various colors of lighting. It may also be used to block portal placement or antline wiring."
+						"" ""
+						"" "* The non-cool lights can be used to contrast or highlight areas."
+						"" "* Sphere-type is unused."
+						"" "* Franken-type is an Antline Router the size of a light strip. This is removed from the map but may conflict with other items in the editor."
+						}
+					"Palette"
+						{
+						"0"
+							{
+							"pal_name" "WHITE HOLE LIGHT"
+							"Name"     "White Hole Light"
+							"Model"    "BEE2/p1/lights/lightstrip_cool.3ds"
+							"Icon"     "palette/p1/light_strip_cool.png"
+							"BEE2"     "p1/light_strip_cool.png"
+							}
+						"1"
+							{
+							"pal_name" "ORANGE HOLE LIGHT"
+							"Name"     "Orange Hole Light"
+							"Model"    "BEE2/p1/lights/lightstrip_warm.3ds"
+							"Icon"     "palette/p1/light_strip_warm.png"
+							"BEE2"     "p1/light_strip_warm.png"
+							}
+						"2"
+							{
+							"pal_name" "BLUE HOLE LIGHT"
+							"Name"     "Blue Hole Light"
+							"Model"    "BEE2/p1/lights/lightstrip_cold.3ds"
+							"Icon"     "palette/p1/light_strip_cold.png"
+							"BEE2"     "p1/light_strip_cold.png"
+							}
+						// 3: Router, unstyled.
+						}
+					// Duplicates for backwards compatibility.
+					"Extra"
+						{
+						"Palette"
+							{
+							"0"
+								{
+								"Name"     "Orange Hole Light"
+								"Model"    "p1_light_warm.3ds"
+								}
+							"1"
+								{
+								"Name"     "Blue Hole Light"
+								"Model"    "p1_light_cold.3ds"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	"ITEM"
+		{
+		"ID" "ITEM_BARRIER_HAZARD"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Description"   "Portal 1-era fields appear as fields of blue particles."
+					"Base" "BEE2_CLEAN"
+					"Config" "fizzler.cfg"
+					"Palette"
+						{
+						"0"
+							{
+							"Model" "bee2_p1_fizz_frame.3ds"
+							}
+						"1"
+							{
+							"Model" "bee2_p1_las_frame.3ds"
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_PANEL_ANGLED"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1" "angled_pan"
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_PANEL_CLEAR"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1" "glass_pan"
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_RAIL_PLATFORM"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base" "BEE2_CLEAN"
+					"Config" "track_plat.cfg"
+					"Instances"
+						{
+						"0" "instances/BEE2/p1/items/track/bottom_grate.vmf"
+						"1" "instances/BEE2/p1/items/track/bottom.vmf"
+						"2" "instances/BEE2/p1/items/track/middle.vmf"
+						"3" "instances/BEE2/p1/items/track/top.vmf"
+						"4" "instances/BEE2/p1/items/track/platform.vmf"
+						"5" "instances/BEE2/p1/items/track/platform_oscillate.vmf"
+						"6" "instances/BEE2/p1/items/track/single.vmf"
+						}
+					}
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_BUTTON_FLOOR"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"		"floor_button"
+				}
+			}
+		}
+
+	"ITEM"
+		{
+		"ID" "ITEM_BUTTON_PEDESTAL"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"		"ped_button"
+				}
+			}
+		}
+		
+	"ITEM"
+		{
+		"ID" "ITEM_BARRIER"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"		"glass"
+				}
+			}
+		}
+
+	"Item"
+		{
+		"ID" "ITEM_LASER_EMITTER_CENTER"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base" "BEE2_CLEAN"
+					"Instances"
+						{
+						"0"          "instances/BEE2/p1/items/laser/emitter_center.vmf"
+						"bee2_floor" "instances/BEE2/p1/items/laser/emitter_center.vmf"
+						}
+					"Extra"
+						{
+						"Instances"
+							{
+							"0"          "instances/BEE2/p1/items/laser/emitter_offset.vmf"
+							"bee2_floor" "instances/BEE2/p1/items/laser/emitter_offset.vmf"
+							}
+						}
+					}
+				}
+			}
+		}
+	"Item"
+		{
+		"ID" "ITEM_LASER_CATCHER_CENTER"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"laser/catcher"
+				}
+			}
+		}
+	"Item"
+		{
+		"ID" "ITEM_LASER_RELAY_CENTER"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"	"laser/relay"
+				}
+			}
+		}
+
+	"Item"
+		{
+		"ID" "ITEM_PANEL_FLIP"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base" "BEE2_CLEAN"
+					"Instances"
+						{
+						"0"          "instances/BEE2/p1/items/panel_flip.vmf"
+						}
+					}
+				}
+			}
+		}
+
+	"Item"
+		{
+		"ID" "ITEM_CATAPULT"
+		"Version"
+			{
+			"Styles"
+				{
+				"BEE2_PORTAL_1"
+					{
+					"Base" "BEE2_CLEAN"
+					"Append"
+						{
+						"Conditions"
+							{
+							"Condition"
+								{
+								"Priority" "-10"
+								"instance" "<ITEM_CATAPULT>"
+								"Result"
+									{
+									"AddOverlay" "instances/BEE2/p1/items/faith_sign.vmf"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}

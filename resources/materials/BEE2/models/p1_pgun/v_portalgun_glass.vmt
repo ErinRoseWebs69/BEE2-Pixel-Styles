@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+	$baseTexture "BEE2/models/p1_pgun/v_portalgun_glass"
+	$translucent 1
+	$surfaceprop glass
+}

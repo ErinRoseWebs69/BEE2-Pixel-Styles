@@ -1,0 +1,13 @@
+Patch
+	{
+	include "materials/BEE2/p1/goo/p1_goo.vmt"
+	insert 
+		{
+		$lightmapwaterfog 0
+		$flashlighttint 200
+		}
+	replace
+		{
+		$abovewater 0
+		}
+	}

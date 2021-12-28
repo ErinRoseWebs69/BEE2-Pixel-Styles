@@ -1,0 +1,160 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7552"
+	"mapversion" "50"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "50"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "773"
+	"classname" "comp_pack_replace_soundscript"
+	"original" "scripts/game_sounds_player_portal2.txt"
+	"replacement" "scripts/bee2/p1_pgun_sounds.txt"
+	"origin" "16 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "795"
+	"classname" "comp_pack_replace_soundscript"
+	"original" "scripts/game_sounds_weapons_portal.txt"
+	"replacement" "scripts/bee2/p1_pgun_sounds.txt"
+	"origin" "16 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "683"
+	"classname" "comp_pack_replace_soundscript"
+	"original" "scripts/game_sounds_physics.txt"
+	"replacement" "scripts/bee2/p1_physics_sounds.txt"
+	"origin" "16 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "720"
+	"classname" "comp_precache_sound"
+	"sound1" "player/footsteps/metal1.wav"
+	"sound2" "player/footsteps/metal2.wav"
+	"sound3" "player/footsteps/metal3.wav"
+	"sound4" "player/footsteps/metal4.wav"
+	"sound5" "physics/metal/metal_box_scrape_smooth_loop1.wav"
+	"sound6" "physics/metal/metal_box_scrape_rough_loop1.wav"
+	"origin" "-16 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "673"
+	"classname" "comp_precache_sound"
+	"sound1" "bee2/p1/pgun/ambient.wav"
+	"sound2" "bee2/p1/pgun/portal_enter1.wav"
+	"sound3" "bee2/p1/pgun/portal_enter2.wav"
+	"sound4" "bee2/p1/pgun/portal_exit1.wav"
+	"sound5" "bee2/p1/pgun/portal_exit2.wav"
+	"sound6" "player/footsteps/concrete1.wav"
+	"sound7" "player/footsteps/concrete2.wav"
+	"sound8" "player/footsteps/concrete3.wav"
+	"sound9" "player/footsteps/concrete4.wav"
+	"origin" "-16 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "503"
+	"classname" "logic_auto"
+	"spawnflags" "0"
+	connections
+	{
+		"OnMapSpawn" "viewmodelRunScriptCodeself.SetModel(`models/BEE2/p1_pgun.mdl`)0-1"
+		"OnLoadGame" "viewmodelRunScriptCodeself.SetModel(`models/BEE2/p1_pgun.mdl`)0-1"
+	}
+	"origin" "-16 0 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "` becomes double-quotes."
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "648"
+	"classname" "comp_precache_model"
+	"angles" "0 270 0"
+	"model" "models/bee2/p1_pgun.mdl"
+	"skin" "0"
+	"origin" "8 24 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,16 @@
+LightmappedGeneric
+	{
+	$basetexture "BEE2/p1/metalwall048b_lrg_fade"
+	$surfaceprop metal
+	%noportal 1
+	%keywords "BEE2"
+	
+	%nopaint 1
+	$selfillum 1
+
+	$reflectivity "[ .35 .30 .27 ]" //this is a artificial radiosity boost
+
+	$bumpmap "BEE2/p1/metalwall048b_lrg_height-ssbump"
+	$ssbump 1
+	$normalmapalphaenvmapmask 1
+	}

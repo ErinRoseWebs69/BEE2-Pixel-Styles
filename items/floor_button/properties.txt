@@ -1,0 +1,14 @@
+"Properties"
+	{
+	"Authors"		"Valve, Carl Kenner"
+	"Tags"			"Portal 2; Test Elements"
+	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Button"
+	"all_icon"		"palette/grouped/portal_buttons.vtf"
+	"all_name"		"BUTTONS"
+	"Icon"
+		{
+			"0"		"VALVE_BUTTONS:clean/button_weight.png"
+			"1"		"VALVE_BUTTONS:clean/button_cube.png"
+			"2"		"VALVE_BUTTONS:clean/button_ball.png"
+		}
+	}
