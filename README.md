@@ -1,3 +1,7 @@
+# THIS IS CURRENTLY NOT BEING DEVELOPED
+I have several other projects being worked on, plus I work full-time night shifts. I may come back to this in the future, but as of now consider it dead.
+
+
 # BEE2-Pixel-Styles
 Adds Minecraft styles and original voxel styles to BEEMod.
 
